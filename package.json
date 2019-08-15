@@ -1,0 +1,25 @@
+{
+  "name": "practica-palindroo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "palindromo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoooduarte/Practica-palindromo.git"
+  },
+  "author": "Leonardo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leoooduarte/Practica-palindromo/issues"
+  },
+  "homepage": "https://github.com/leoooduarte/Practica-palindromo#readme",
+  "dependencies": {
+    "mocha": "^6.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
+}
