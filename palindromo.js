@@ -17,16 +17,11 @@ function palindromo(palabra){
 
   
   for(i in letras) {
-    if(letras[i] == letrasReves[i]) {
+    if(letras[i] != letrasReves[i]) {
       // Todo bien
-      return true;
-    }
-    else {
-      // Alguna letra es distinta, por lo que ya no es un palindromo
-      
       return false;
     }
-  }
+  }return true;
  
   
  

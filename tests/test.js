@@ -24,12 +24,18 @@ describe("Probando la funcion Palindromo", function(){
  })
  it("Comparación de palabra papa ama", function(){
   
-  expect(palindromo("papa ama")).to.be.equal(true);
+  expect(palindromo("papa ama")).to.be.equal(false);
   
  })
  it("Comparación de string vacio", function(){
   
-  expect(palindromo("")).to.be.equal(true);
+  expect(palindromo("")).to.be.equal(false);
+  
+ })
+
+ it("Comparación de modem", function(){
+  
+  expect(palindromo("modem")).to.be.equal(false);
   
  })
 })
