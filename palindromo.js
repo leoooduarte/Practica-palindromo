@@ -22,8 +22,4 @@ function palindromo(palabra){
       return false;
     }
   }return true;
- 
-  
- 
- 
 }
